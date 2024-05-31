@@ -1,0 +1,80 @@
+.admin-dashboard {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  height: 100vh;
+}
+
+.admin-dashboard h1 {
+  grid-column: span 12;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard ul {
+  grid-column: span 12;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.admin-dashboard li {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard .user-bookings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+.admin-dashboard .user-bookings h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.admin-dashboard .furniture-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-dashboard .furniture-list img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.admin-dashboard .furniture-list li {
+  display: flex;
+  align-items: center;
+}
+
+.admin-dashboard .furniture-list p {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.admin-dashboard p {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.admin-dashboard .total-amount {
+  font-weight: bold;
+  font-size: 24px;
+  color: #f00;
+}

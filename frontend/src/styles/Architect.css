@@ -1,0 +1,73 @@
+.architects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.architect-card {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.architect-card:hover {
+  transform: scale(1.05);
+}
+
+.architect-card a {
+  text-decoration: none;
+  color: #333;
+}
+
+.architect-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.architect-details {
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.work {
+  font-style: italic;
+  color: #888;
+  font-size: 1rem;
+}
+
+.description {
+  color: #555;
+  font-size: 1rem;
+}
+
+.contact {
+  margin-top: 10px;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.contact a,
+.email a {
+  color: #007bff; /* Change to the color you prefer */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover,
+.email a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,173 @@
+.booking{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid;
+  position: sticky;
+  top: 80px;
+}
+
+.booking__form h1 {
+  font-size: 24px;
+  color: #333; /* Set heading color to a dark shade */
+  margin-bottom: 20px; 
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  border-bottom: 2px solid #0a0b0a; /* Add a 2px solid green line under the heading */
+  padding-bottom: 10px;/* Add some space between the heading and the form elements */
+}
+.booking:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.booking__top h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.booking__top h3 span{
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.booking__top span{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.booking__top span i {
+  color: var(--secondary-color);
+}
+
+.booking__top{
+  padding-top: 2rem;
+  border-bottom: 1px solid rgb(229, 231, 235);
+}
+
+.booking__form{
+  padding-top: 2rem;
+}
+
+.booking__form input{
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: var(--heading-color);
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid rgb(229, 231, 235);
+}
+
+.booking__form input:focus{
+  outline: none;
+}
+
+.booking__info-form {
+  padding: 1rem;
+  border: 1px solid rgb(229, 231, 235);
+}
+
+.booking__info-form h6{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.booking__bottom li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking__bottom li h5{
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.booking__bottom li span{
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: 500; 
+}
+
+.booking__bottom{
+  margin-top: 1rem;
+}
+
+.total h5{
+  color: var(--heading-color) !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+}
+
+.total span{
+  color: var(--heading-color) !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+}
+
+
+.payment-section {
+  background-color: #34495e; /* Dark blue-gray background */
+  color: #ecf0f1; /* Light gray text color */
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+/* Updated Payment options styling */
+.payment-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-option {
+  margin-bottom: 20px;
+}
+
+.payment-option label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ecf0f1; /* Light gray text color */
+}
+
+.payment-option input {
+  margin-right: 10px;
+
+}
+
+.payment-option:hover {
+  background-color: #292b2d; /* Darker blue-gray on hover */
+}
+
+/* Updated Button styling */
+.btn-pay {
+  background-color: #27ae60; /* Green button color */
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-pay:hover {
+  background-color: #219653; /* Darker green on hover */
+}
+.selected-furniture {
+  border: 2px solid #007bff; 
+  padding: 5px;
+  margin-top: 5px;
+  
+}
+
+.selected-furniture p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}

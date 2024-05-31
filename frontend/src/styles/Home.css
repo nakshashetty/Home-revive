@@ -1,0 +1,157 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+}
+
+.headerContainer {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.headerContainer h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+  margin-top: 30px;
+}
+
+.headerContainer p {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  color:black;
+}
+
+button {
+  background-color: #000000;
+  color: rgb(245, 242, 242);
+  padding: 15px 30px;
+  font-size: 1em;
+  text-decoration: none;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #972424;
+}
+
+/* AuthForm.css */
+.auth-form-container {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  background-color: rgba(188, 179, 179, 0.8);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(46, 44, 44, 0.1);
+}
+
+.form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #a6a1a1;
+  border-radius: 5px;
+}
+
+.form button {
+  background-color: #000000;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #171b1f;
+}
+
+.link-btn {
+  background: none;
+  color: #ebeff2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link-btn:hover {
+  color: #dde2e8;
+}
+section {
+  background-color: rgba(188, 179, 179, 0.8);
+  padding: 40px ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width:500px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+/* Add styles for the container */
+.Container {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(106, 101, 101, 0.1);
+  background-color: rgba(188, 179, 179, 0.8);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+/* Add styles for the form container within the column */
+.Col {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Add styles for the form itself */
+Form {
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add styles for form inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Add styles for the button */
+Button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add styles for the link */
+Link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Add styles for the link on hover */
+Link:hover {
+  text-decoration: underline;
+}

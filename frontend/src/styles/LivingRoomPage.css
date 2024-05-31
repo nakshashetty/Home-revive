@@ -1,0 +1,26 @@
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 50px;
+  }
+  
+  .image-gallery img {
+    width: 100%;
+    max-width: 900px;
+    height: 900px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  a:hover {
+    text-decoration: underline;
+  }

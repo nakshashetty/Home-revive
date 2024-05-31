@@ -1,0 +1,111 @@
+/* Furniture.css */
+/* You can customize this CSS file based on your design preferences */
+
+/* Container styling */
+.detail-container {
+  padding: 20px;
+}
+
+.detail_contant {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.detail_info {
+  width: 30%;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.img-box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.product_detail {
+  padding: 15px;
+}
+
+/* Heading and description styling */
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+h3 {
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+p {
+  color: #555;
+}
+
+/* Buy Now button styling */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Furniture Collection section styling */
+.furniture-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.furniture-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.furniture-item {
+  width: 200px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.furniture-item:hover {
+  transform: scale(1.05);
+}
+
+.furniture-item img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.furniture-name,
+.furniture-price {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .detail_info {
+    width: 100%;
+  }
+}

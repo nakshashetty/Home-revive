@@ -1,0 +1,40 @@
+.user-bookings {
+  max-width: 1000px; /* Adjust the max-width to your desired size */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-bookings h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-bookings li {
+  list-style-type: none;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.user-bookings h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.user-bookings p {
+  margin: 5px 0;
+}
+
+.user-bookings img {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px; /* Set a specific maximum height */
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-bookings p.Total-Amount {
+  font-weight: bold;
+  margin-top: 10px;
+}

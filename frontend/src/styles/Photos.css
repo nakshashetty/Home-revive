@@ -1,0 +1,52 @@
+/* Photos.css */
+
+.before-after-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-title {
+  color: #121212;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.page-description {
+  color: #555;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.image-pair {
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 800px;
+}
+
+.image-description {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.image-description h3 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.image-description p {
+  color: #666;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+.image-pair {
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%; /* Ensure the image pair takes the full width of its container */
+}
+/* Add more styling as needed */

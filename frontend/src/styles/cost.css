@@ -1,0 +1,18 @@
+.cost-estimation {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial,}
+  
+  .cost-estimation h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .cost-estimation p {
+    margin: 0;
+    line-height: 1.5;
+  }
