@@ -72,6 +72,8 @@ Thank you Page
 
 
 ![image](https://github.com/nakshashetty/Home-revive/assets/171343077/1f60260c-5a6c-4fef-90ac-2a076d89b1e9)
+![image](https://github.com/nakshashetty/Home-revive/assets/171343077/11e1454c-aa03-406e-92a4-582dd7dd08ce)
+
 
 
 
