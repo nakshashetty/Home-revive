@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+Home-Revive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Home Revive offers a seamless and elegant solution for home
+ renovation. Upon logging in, users can easily choose from
+ categories such as living room, bedroom, bathroom, kitchen, and
+ balcony. The site features a network of architects from various
+ cities, showcasing their profiles, past work, and contact details for
+ direct communication. A dedicated section displays impressive
+ before-and-after project photos for inspiration. Additionally, Home
+ Revive includes a furniture section, enabling customers to purchase
+ furniture directly through the website. This user-friendly platform
+ simplifies the renovation process, making it both convenient and
+ efficient. 
 
-## Available Scripts
+ Screenshots
+ Home Page
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ![image](https://github.com/nakshashetty/Home-revive/assets/171343077/166a17f9-cd32-4583-8af9-7524a5eae421)
+ ![image](https://github.com/nakshashetty/Home-revive/assets/171343077/5f632514-7663-45b5-a14d-d74cc88f375e)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ Footer
 
-### `npm test`
+ 
+ ![image](https://github.com/nakshashetty/Home-revive/assets/171343077/a15f5ef6-3ae0-4d96-8f23-3d5781a07ac4)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Category Page
 
-### `npm run build`
+ 
+ ![image](https://github.com/nakshashetty/Home-revive/assets/171343077/d57dd1bf-f404-4172-b388-41f2983a0e72)
+ 
+ Photo Gallery of the selected category
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ 
+ ![image](https://github.com/nakshashetty/Home-revive/assets/171343077/2693b868-8e2f-40ff-90bc-72198a1a7524)
+ ![image](https://github.com/nakshashetty/Home-revive/assets/171343077/e3504906-5bc6-4d4c-9003-7e1fa25c2bed)
+ ![image](https://github.com/nakshashetty/Home-revive/assets/171343077/9a35d013-fb90-41d1-92e8-15cd8789eb23)
+ ![image](https://github.com/nakshashetty/Home-revive/assets/171343077/5f6984b5-6c78-4b29-8f5e-ba62ec38fa2d)
+ ![image](https://github.com/nakshashetty/Home-revive/assets/171343077/2560910c-a92a-42c1-bbb9-08271f94e869)
+ ![image](https://github.com/nakshashetty/Home-revive/assets/171343077/ef7fbcb9-4a86-4b5c-b5c7-f686752f731e)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Architect Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![image](https://github.com/nakshashetty/Home-revive/assets/171343077/f62b8313-7f02-4b37-a965-0a9f15017817)
+![image](https://github.com/nakshashetty/Home-revive/assets/171343077/68b1566a-b786-4e23-8cd2-4506a46c9074)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Before and After Page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://github.com/nakshashetty/Home-revive/assets/171343077/b08412f5-40a7-480a-af9b-3ad7247a38de)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Furniture Page
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/nakshashetty/Home-revive/assets/171343077/bdf5b5a4-b597-45b9-81fe-2d5b16c62afb)
+![image](https://github.com/nakshashetty/Home-revive/assets/171343077/d1801359-2fc0-4b51-ad32-e813a83b7f23)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+FAQ Page
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://github.com/nakshashetty/Home-revive/assets/171343077/377d7dd9-6dc9-4443-af04-858beef1433d)
 
-### Analyzing the Bundle Size
+Booking Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+![image](https://github.com/nakshashetty/Home-revive/assets/171343077/77f0901e-b684-46c8-a139-b880d8782e10)
+![image](https://github.com/nakshashetty/Home-revive/assets/171343077/ba8689f5-9da6-4b02-a6a9-aabd9d234ec6)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Thank you Page
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![image](https://github.com/nakshashetty/Home-revive/assets/171343077/1f60260c-5a6c-4fef-90ac-2a076d89b1e9)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
